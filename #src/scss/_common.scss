@@ -1,0 +1,17 @@
+html {
+	font-size: 10px;
+}
+body {
+	font-family: $f_family;
+	font-weight: $f_weight;
+	font-size: $f_size;
+	background-color: $color_back;
+	color: $color_text;
+}
+
+.container {
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+	max-width: $maxWidthContainer + px;
+}
